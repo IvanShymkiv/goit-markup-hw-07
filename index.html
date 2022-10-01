@@ -21,16 +21,14 @@
       referrerpolicy="no-referrer"
     />
     <!-- Custom styles -->
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body class="page">
     <!--Стрічка навігації-->
 
     <header class="header">
       <div class="header__container container">
-        <a class="logo" href="./index.html"
-          >Web<span class="header__logo">Studio</span>
-        </a>
+        <a class="logo" href="./index.html">Web<span class="header__logo">Studio</span> </a>
         <nav class="nav">
           <ul class="nav__list list">
             <li class="nav__item">
@@ -44,7 +42,7 @@
             </li>
           </ul>
         </nav>
-        <ul class="header-group list ">
+        <ul class="header-group list">
           <li>
             <a class="header__contacts" href="mailto:info@devstudio.com">
               <svg class="header__icon" width="16" height="12">
@@ -77,8 +75,8 @@
 
       <section class="about section">
         <div class="container">
-          <h2 class="about__title">Переваги компанії</h2>
-          <ul class="about__container list ">
+          <h2 class="visually-hidden">Переваги компанії</h2>
+          <ul class="about__container list">
             <li class="about__item">
               <div class="about__block">
                 <svg class="about__icon" width="70" height="70">
@@ -134,7 +132,7 @@
           <h2 class="activity__title">Чим ми займаємося</h2>
           <ul class="activity__container list">
             <li class="activity__item">
-              <div class="act__thumb">
+              <div class="activity__thumb">
                 <img
                   class="activity__img"
                   src="./imeges/company-activity/img.jpg"
@@ -142,13 +140,13 @@
                   width="370"
                   height="295"
                 />
-                <div class="act__bloc">
-                  <p class="act__img-title">Десктопні додатки</p>
+                <div class="activity__bloc">
+                  <p class="activity__img-title">Десктопні додатки</p>
                 </div>
               </div>
             </li>
             <li class="activity__item">
-              <div class="act__thumb">
+              <div class="activity__thumb">
                 <img
                   class="activity__img"
                   src="./imeges/company-activity/img2.jpg"
@@ -156,13 +154,13 @@
                   width="370"
                   height="295"
                 />
-                <div class="act__bloc">
-                  <p class="act__img-title">Мобільні додатки</p>
+                <div class="activity__bloc">
+                  <p class="activity__img-title">Мобільні додатки</p>
                 </div>
               </div>
             </li>
             <li class="activity__item">
-              <div class="act__thumb">
+              <div class="activity__thumb">
                 <img
                   class="activity__img"
                   src="./imeges/company-activity/img3.jpg"
@@ -170,8 +168,8 @@
                   width="370"
                   height="295"
                 />
-                <div class="act__bloc">
-                  <p class="act__img-title">Дизайнерські рішення</p>
+                <div class="activity__bloc">
+                  <p class="activity__img-title">Дизайнерські рішення</p>
                 </div>
               </div>
             </li>
@@ -514,10 +512,8 @@
     <footer class="footer">
       <div class="footer__container container">
         <div class="contacts-group">
-          <a class="logo" href="./index.html"
-            >Web<span class="logo__light">Studio</span>
-          </a>
-              <address class="address" style="font-style: normal">
+          <a class="logo" href="./index.html">Web<span class="logo__light">Studio</span> </a>
+          <address class="address" style="font-style: normal">
             <ul class="list">
               <li class="contacts__item">
                 <a
@@ -529,7 +525,9 @@
                 >
               </li>
               <li class="contacts__item">
-                <a class="contacts__link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="contacts__link link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
               </li>
               <li class="contacts__item">
                 <a class="contacts__link link" href="tel:+380961111111">+38 096 111 11 11</a>
@@ -595,10 +593,16 @@
           </ul>
         </div>
         <div>
-           <p class="footer__email-title">Підпишіться на розсилку</p>
+          <p class="footer__email-title">Підпишіться на розсилку</p>
           <div class="footer__form">
             <label class="footer__email-form">
-              <input class="footer__email" type="email" name="user-mail" required placeholder="E-mail" />
+              <input
+                class="footer__email"
+                type="email"
+                name="user-mail"
+                required
+                placeholder="E-mail"
+              />
             </label>
             <button class="footer__btn btn" type="submit">
               Підписатись
