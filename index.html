@@ -27,35 +27,35 @@
     <!--Стрічка навігації-->
 
     <header class="header">
-      <div class="container header-container">
-        <a class="link header-link" href="./index.html"
-          ><span class="logo-first-color">Web</span><span class="logo-second-color">Studio</span>
+      <div class="header__container container">
+        <a class="logo" href="./index.html"
+          >Web<span class="header__logo">Studio</span>
         </a>
-        <nav class="main-nav">
-          <ul class="list header-nav-list">
-            <li class="list-item">
-              <a class="link current" href="./index.html">Студія</a>
+        <nav class="nav">
+          <ul class="nav__list list">
+            <li class="nav__item">
+              <a class="nav__link link nav__link--current" href="./index.html">Студія</a>
             </li>
-            <li class="list-item">
-              <a class="link" href="./portfolio.html">Портфоліо</a>
+            <li class="nav__item">
+              <a class="nav__link link" href="./portfolio.html">Портфоліо</a>
             </li>
-            <li class="list-item">
-              <a class="link contacts" href="./index.html">Контакти</a>
+            <li class="nav__item">
+              <a class="nav__link link" href="./index.html">Контакти</a>
             </li>
           </ul>
         </nav>
-        <ul class="list header-list">
+        <ul class="header-group list ">
           <li>
-            <a class="address-link" href="mailto:info@devstudio.com">
-              <svg class="contacts-icon" width="16" height="12">
+            <a class="header__contacts" href="mailto:info@devstudio.com">
+              <svg class="header__icon" width="16" height="12">
                 <use href="./imeges/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="address-link" href="tel:+380961111111">
-              <svg class="contacts-icon" width="10" height="16">
+            <a class="header__contacts" href="tel:+380961111111">
+              <svg class="header__icon" width="10" height="16">
                 <use href="./imeges/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -68,18 +68,18 @@
     <main>
       <section class="section hero">
         <div class="container">
-          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button class="hero-btn" type="button" data-modal-open>Замовити послугу</button>
+          <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+          <button class="hero__btn btn" type="button" data-modal-open>Замовити послугу</button>
         </div>
       </section>
 
       <!--Переваги компанії-->
 
-      <section class="section about">
+      <section class="about section">
         <div class="container">
-          <h2 class="about-title">Переваги компанії</h2>
-          <ul class="list container-about">
-            <li class="about-item">
+          <h2 class="about__title">Переваги компанії</h2>
+          <ul class="about__container list ">
+            <li class="about__item">
               <div class="about-block">
                 <svg class="about-icon" width="70" height="70">
                   <use href="./imeges/icons.svg#icon-antenna"></use>
@@ -514,11 +514,10 @@
     <footer class="footer">
       <div class="container footer-info">
         <div class="first-column">
-          <a class="link" href="./index.html"
-            ><span class="logo-first-color">Web</span
-            ><span class="logo-sec-col-footer">Studio</span></a
-          >
-          <address class="container-address" style="font-style: normal">
+          <a class="logo" href="./index.html"
+            >Web<span class="logo__light">Studio</span>
+          </a>
+                  <address class="container-address" style="font-style: normal">
             <ul class="list">
               <li class="address-link">
                 <a
@@ -601,9 +600,9 @@
             <label class="ft-form-email">
               <input class="ft-email" type="email" name="user-mail" required placeholder="E-mail" />
             </label>
-            <button class="ft-btn-send" type="submit">
+            <button class="footer__btn btn" type="submit">
               Підписатись
-              <svg class="ft-send-icon" width="24" height="24">
+              <svg class="ft__icon" width="24" height="24">
                 <use href="./imeges/icons.svg#icon-send"></use>
               </svg>
             </button>
@@ -695,7 +694,7 @@
             </span>
           </label>
 
-          <button class="register-form-btn btn" type="submit">Відправити</button>
+          <button class="register-form__btn btn" type="submit">Відправити</button>
         </form>
       </div>
     </div>
