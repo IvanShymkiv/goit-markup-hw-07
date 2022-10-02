@@ -52,12 +52,14 @@
     transition: fill var(--anim-hover);
   
     cursor: pointer;
-  }
   
     &:hover,
     &:focus {
       fill: var(--accent-txt-cl);
     }
+  }
+  
+    
     
   .modal__form-title {
     display: block;
@@ -85,7 +87,6 @@
     border-radius: 4px;
     outline: transparent;
     transition: border-color var(--anim-hover);
-  }
   
     &:focus,
     &:hover,
@@ -106,6 +107,9 @@
     &:hover ~ .register__form-icon {
     fill: var(--accent-txt-cl);
   }
+  }
+  
+   
   
     
   .register__form-label {
@@ -141,7 +145,6 @@
     border-radius: 4px;
   
     transition: border-color var(--anim-hover);
-  }
   
     &::placeholder {
       font-size: 12px;
@@ -149,12 +152,15 @@
       letter-spacing: 0.01em;
       color: rgba(117, 117, 117, 0.5);
     }
-    
-      &:hover,
-      &:focus,
-      &:not(:placeholder-shown) {
-        border-color: var(--accent-txt-cl);
-      }
+      
+        &:hover,
+        &:focus,
+        &:not(:placeholder-shown) {
+          border-color: var(--accent-txt-cl);
+        }
+  }
+  
+ 
   
   .register__form-field:last-child {
     margin-bottom: 20px;

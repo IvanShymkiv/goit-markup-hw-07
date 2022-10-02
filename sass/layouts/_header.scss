@@ -30,17 +30,18 @@
     letter-spacing: 0.02em;
     color: var(--main-txt-cl);
     transition: color var(--anim-hover);
-  }
-  
+    
     &:hover,
     &:focus  {
       color: var(--accent-txt-cl);
     }
+  }
+  
+    
   
   .nav__link--current {
     color: var(--accent-txt-cl);
     position: relative;
-  }
   
     &::after {
       content: '';
@@ -48,13 +49,16 @@
     
       position: absolute;
       left: 0;
-      bottom: -28px;
+      bottom: -33px;
     
       width: 100%;
       height: 4px;
       border-radius: 2px;
       background-color: var(--accent-txt-cl);
     }
+  }
+  
+   
   
   
   .header-group {
@@ -76,12 +80,14 @@
     display: flex;
     gap: 10px;
     align-items: center;
-  }
-  
+
     &:hover,
     &:focus {
       color: var(--accent-txt-cl);
     }
+  }
+  
+  
   
   .header__icon {
     fill: currentColor;

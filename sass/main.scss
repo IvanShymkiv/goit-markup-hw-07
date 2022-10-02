@@ -8,19 +8,24 @@
 @import './components/reset';
 @import './components/base';
 @import './components/conteiner';
-@import './components/btn';
 @import './components/social-block';
+@import './components/btn';
 @import './components/logo';
-@import './components/header';
-@import './components/hero';
-@import './components/about';
-@import './components/activity';
-@import './components/team';
-@import './components/client';
-@import './components/footer';
 @import './components/modal';
-@import './components/portfolio-filtrs';
-@import './components/portfolio';
+
+
+// Layouts
+
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/about';
+@import './layouts/activity';
+@import './layouts/team';
+@import './layouts/client';
+@import './layouts/footer';
+@import './layouts/portfolio-filtrs';
+@import './layouts/portfolio';
+
 
 
 

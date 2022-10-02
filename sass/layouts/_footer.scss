@@ -24,12 +24,14 @@
   color: var(--other-txt-cl);
   text-align: left;
   margin-top: 20px;
-}
 
-&:hover,
-&:focus {
+  &:hover,
+  &:focus {
   color: var(--accent-txt-cl);
 }
+}
+
+
 
 .contacts__item {
   margin-top: 9px;
@@ -51,12 +53,14 @@
   color: var(--main-txt-cl);
   transition: color var(--anim-hover);
   color: var(--light-txt-cl);
-}
 
-&:hover,
-&:focus {
+  &:hover,
+  &:focus {
   color: var(--accent-txt-cl);
 }
+}
+
+
 
 .footer__social-title {
   font-weight: 700;
@@ -113,11 +117,10 @@
   color: rgba(255, 255, 255, 0.6);
 
   transition: border-color var(--anim-hover);
-}
-
-&:hover,
-&:focus,
-&:not(:placeholder-shown) {
+  
+  &:hover,
+  &:focus,
+  &:not(:placeholder-shown) {
   border-color: var(--accent-txt-cl);
 }
 
@@ -127,6 +130,9 @@
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+}
+
+
 
 .footer__btn {
   display: flex;
